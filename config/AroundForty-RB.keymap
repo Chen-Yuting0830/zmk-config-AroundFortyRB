@@ -103,10 +103,10 @@
         Win-Fnc {
             display-name = "Win-Fnc";
             bindings = <
-&kp LC(A)       &kp HOME      　　&kp UP_ARROW      &kp END　　  　　　　&kp LC(F)          &kp LESS_THAN         &kp N7                 &kp N8           &kp N9         &kp DOLLAR
+&kp LC(A)       &kp HOME          &kp UP_ARROW      &kp END            &kp LC(F)          &kp LESS_THAN         &kp N7                 &kp N8           &kp N9         &kp DOLLAR
 &kp TAB         &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW    &mkp MB2           &kp LEFT_PARENTHESIS  &kp N4                 &kp N5           &kp N6         &kp DOUBLE_QUOTES
-&kp LEFT_SHIFT  &mkp MB1        　&mkp MB2       　　　&trans     　　　　&mkp MB3   &trans  &kp LEFT_BRACKET      &kp N1                 &kp N2           &kp N3         &kp SINGLE_QUOTE
-&kp LCTRL       &trans        　　&trans       　　　&trans     　　　　&trans     &trans  &kp N0                &trans                 &kp BACKSPACE    &kp ENTER      &kp HASH
+&kp LEFT_SHIFT  &mkp MB1          &mkp MB2          &trans             &mkp MB3   &trans  &kp LEFT_BRACKET      &kp N1                 &kp N2           &kp N3         &kp SINGLE_QUOTE
+&kp LCTRL       &trans        　　&trans       　　　&trans             &trans     &trans  &kp N0                &trans                 &kp BACKSPACE    &kp ENTER      &kp HASH
             >;
         };
 

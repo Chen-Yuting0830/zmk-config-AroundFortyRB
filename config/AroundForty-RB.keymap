@@ -103,9 +103,9 @@
         Win-Fnc {
             display-name = "Win-Fnc";
             bindings = <
-&kp LC(A)       &kp HOME          &kp UP_ARROW      &kp END            &kp LC(F)                &kp LESS_THAN         &kp N7                 &kp N8           &kp N9         &kp DOLLAR
-&kp TAB         &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp LANGUAGE_2           &kp LANGUAGE_1        &kp N4                 &kp N5           &kp N6         &kp DOUBLE_QUOTES
-&kp LEFT_SHIFT  &mkp MB1          &mkp MB2          &trans             &mkp MB3         &trans  &kp LEFT_BRACKET      &kp N1                 &kp N2           &kp N3         &kp SINGLE_QUOTE
+&kp LC(A)       &kp HOME          &kp UP_ARROW      &kp END            &kp LC(F)                &kp LESS_THAN         &kp N7                 &kp N8           &kp N9         &kp MINUS
+&kp TAB         &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp LANGUAGE_2           &kp LANGUAGE_1        &kp N4                 &kp N5           &kp N6         &kp PLUS
+&kp LEFT_SHIFT  &mkp MB1          &mkp MB2          &trans             &mkp MB3         &trans  &kp LEFT_BRACKET      &kp N1                 &kp N2           &kp N3         &kp ASTERISK
 &kp LCTRL       &trans            &trans            &trans             &trans           &trans  &kp N0                &trans                 &kp BACKSPACE    &kp ENTER      &kp HASH
             >;
         };
@@ -125,7 +125,7 @@
             bindings = <
 &kp ESC    &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)     &kp LG(LC(UP_ARROW))    &kp LA(UP_ARROW)                        &kp LC(W)          &kp F7      &kp F8    &kp F9  &kp F10
 &kp TAB    &kp LEFT_ALT        &kp LS(TAB)          &kp LG(LC(LEFT_ARROW))  &kp LG(LC(RIGHT_ARROW))                 &kp LC(PAGE_UP)    &kp F4      &kp F5    &kp F6  &kp F11
-&kp LSHFT  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &kp LG(LC(F4))          &kp LA(DOWN_ARROW)       &kp LG(LS(S))  &kp LC(PAGE_DOWN)  &kp F1      &kp F2    &kp F3  &kp F
+&kp LSHFT  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &kp LG(LC(F4))          &kp LA(DOWN_ARROW)       &kp LG(LS(S))  &kp LC(PAGE_DOWN)  &kp F1      &kp F2    &kp F3  &kp F12
 &kp LCTRL  &trans              &trans               &trans                  &trans                   &trans         &trans             &kp LC(T)           &trans          &trans               &kp END
             >;
         };

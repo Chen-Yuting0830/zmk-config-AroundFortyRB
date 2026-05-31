@@ -29,7 +29,7 @@
                            // <&zip_temp_layer 9 300>;
 
         scroll-layer {
-            layers = <6 7>;
+            layers = <4 5 6 7>;
             input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>,
                                <&zip_xy_to_scroll_mapper>,
                                <&zip_scroll_scaler 1 45>;
@@ -74,7 +74,7 @@
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
-        cpi = <400>;
+        cpi = <800>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         force-awake;
     };

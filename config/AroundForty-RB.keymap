@@ -181,9 +181,9 @@
        Symbols {
             display-name = "Symbols";
             bindings = <
-&trans  &trans  &trans  &trans  &trans          &trans  &trans    &trans    &trans    &kp AT_SIGN
-&trans  &trans  &trans  &trans  &trans          &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans    &trans    &trans    &kp LS(N2)
+&trans  &trans  &trans  &trans  &trans          &trans  &trans    &trans    &trans    &kp LS(GRAVE)
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &kp BACKSLASH
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
             >;
        };

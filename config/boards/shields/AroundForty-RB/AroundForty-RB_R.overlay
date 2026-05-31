@@ -32,9 +32,6 @@
         // scroll-x-invert;
     };
 
-&zip_xy_to_scroll_mapper {
-    scroll-y-invert;
-};
 
 
     trackball_listener: trackball_listener {
@@ -51,7 +48,13 @@
                                <&zip_scroll_scaler 1 45>;
         };
     };
+
 };
+
+&zip_xy_to_scroll_mapper {
+    scroll-y-invert;
+};
+
 
 &pinctrl {
     spi0_default: spi0_default {

@@ -32,6 +32,11 @@
         // scroll-x-invert;
     };
 
+&zip_xy_to_scroll_mapper {
+    scroll-y-invert;
+};
+
+
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
@@ -42,7 +47,7 @@
 
         scroll-layer {
             layers = <4 5 6 7>;
-            input-processors = <&zip_xy_to_scroll_mapper_tune>, 
+            input-processors = <&zip_xy_to_scroll_mapper>, 
                                <&zip_scroll_scaler 1 45>;
         };
     };

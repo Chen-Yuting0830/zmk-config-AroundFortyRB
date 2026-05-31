@@ -181,7 +181,7 @@
        Symbols {
             display-name = "Symbols";
             bindings = <
-&trans  &trans  &trans  &trans  &trans          &trans  &kp LEFT_BRACKET    &kp RIGHT_BRACKET    &trans    &kp LS(N2)
+&trans  &trans  &trans  &trans  &trans          &trans  &kp LEFT_BRACKET    &kp RIGHT_BRACKET    &trans    &kp SINGLE_QUOTE
 &trans  &trans  &trans  &trans  &trans          &trans  &kp LS(COMMA)       &kp LS(DOT)          &trans    &kp LS(GRAVE)
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans              &trans               &trans    &kp BACKSLASH
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans              &trans               &trans    &trans

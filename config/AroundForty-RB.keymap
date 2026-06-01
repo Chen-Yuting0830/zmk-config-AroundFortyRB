@@ -105,7 +105,7 @@
             bindings = <
 &kp LC(A)       &kp HOME          &kp UP_ARROW      &kp END            &kp LC(F)                &kp LESS_THAN             &kp N7                 &kp N8           &kp N9         &kp MINUS
 &kp TAB         &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp LANGUAGE_2           &kp LANGUAGE_1            &kp N4                 &kp N5           &kp N6         &kp LS(SEMI)
-&kp LEFT_SHIFT  &mkp MB1          &mkp MB2          &trans             &mkp MB3         &trans  &kp N0                    &kp N1                 &kp N2           &kp N3         &kp COLON
+&kp LEFT_SHIFT  &mkp MB1          &mkp MB2          &trans             &mkp MB3         &trans  &kp N0                    &kp N1                 &kp N2           &kp N3         &kp SINGLE_QUOTE 
 &kp LCTRL       &kp LGUI          &trans            &trans             &trans           &trans  &mt RIGHT_SHIFT DELETE    &trans                 &kp BACKSPACE    &kp ENTER      &kp RIGHT_ALT
             >;
         };

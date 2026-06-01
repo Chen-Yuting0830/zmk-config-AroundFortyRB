@@ -181,10 +181,10 @@
        Symbols {
             display-name = "Symbols";
             bindings = <
-&kp LS(RIGHT_BRACKET)  &kp LS(INT1)   &kp LS(INT2)  &trans  &trans                &trans  &kp LS(COMMA)       &kp LS(DOT)           &kp EQUAL          &kp LEFT_BRACKET
-&trans                 &trans         &trans        &trans  &trans                &trans  &kp RIGHT_BRACKET   &kp BACKSLASH         &kp LS(INT3)       &kp LS(EQUAL)
-&trans                 &trans         &trans        &trans  &trans  &LC(PAGE_UP)  &trans  &trans              &kp LS(RIGHT_BRACKET) &kp LS(BACKSLASH)  &kp INT1
-&trans                 &trans         &trans        &trans  &trans  &trans        &trans  &kp LC(PAGE_DOWN)   &trans                &trans             &kp LS(INT1)
+&kp LS(RIGHT_BRACKET)  &kp LS(INT1)   &kp LS(INT2)  &trans  &trans                   &trans  &kp LS(COMMA)       &kp LS(DOT)           &kp EQUAL          &kp LEFT_BRACKET
+&trans                 &trans         &trans        &trans  &trans                   &trans  &kp RIGHT_BRACKET   &kp BACKSLASH         &kp LS(INT3)       &kp LS(EQUAL)
+&trans                 &trans         &trans        &trans  &trans  &kp LC(PAGE_UP)  &trans  &trans              &kp LS(RIGHT_BRACKET) &kp LS(BACKSLASH)  &kp INT1
+&trans                 &trans         &trans        &trans  &trans  &trans           &trans  &kp LC(PAGE_DOWN)   &trans                &trans             &kp LS(INT1)
             >;
        };
 

@@ -181,7 +181,7 @@
        Symbols {
             display-name = "Symbols";
             bindings = <
-&kp INT1  &kp LS(INT1)  &kp INT2  &kp LS(INT2)  &trans          &trans  &kp LS(COMMA)       &kp LS(DOT)          &kp ESQUAL    &kp LEFT_BRACKET
+&kp INT1  &kp LS(INT1)  &kp INT2  &kp LS(INT2)  &trans          &trans  &kp LS(COMMA)       &kp LS(DOT)          &kp EQUAL    &kp LEFT_BRACKET
 &kp INT3  &kp LS(INT3)  &trans    &trans        &trans          &trans  &kp RIGHT_BRACKET   &kp BACKSLASH        &trans        &kp LS(EQUAL)
 &trans    &trans        &trans    &trans        &trans  &trans  &trans  &trans              &trans               &trans        &kp NUBS
 &trans    &trans        &trans    &trans        &trans  &trans  &trans  &trans              &trans               &trans        &kp LS(NUBS)

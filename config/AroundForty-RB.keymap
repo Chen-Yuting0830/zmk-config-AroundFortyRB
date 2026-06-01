@@ -103,10 +103,10 @@
         Win-Fnc {
             display-name = "Win-Fnc";
             bindings = <
-&kp LC(A)       &kp HOME          &kp UP_ARROW      &kp END            &kp LC(F)                &kp LESS_THAN             &kp N7                 &kp N8           &kp N9         &kp MINUS
-&kp TAB         &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp LANGUAGE_2           &kp LANGUAGE_1            &kp N4                 &kp N5           &kp N6         &kp LS(SEMI)
-&kp LEFT_SHIFT  &mkp MB1          &mkp MB2          &trans             &mkp MB3         &trans  &kp N0                    &kp N1                 &kp N2           &kp N3         &kp SINGLE_QUOTE 
-&kp LCTRL       &kp LGUI          &trans            &trans             &trans           &trans  &mt RIGHT_SHIFT DELETE    &trans                 &kp BACKSPACE    &kp ENTER      &kp RIGHT_ALT
+&kp LC(A)       &kp HOME          &kp UP_ARROW      &kp END            &kp LC(F)                         &kp LESS_THAN             &kp N7                 &kp N8           &kp N9         &kp MINUS
+&kp TAB         &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp LANGUAGE_2                    &kp LANGUAGE_1            &kp N4                 &kp N5           &kp N6         &kp LS(SEMI)
+&kp LEFT_SHIFT  &mkp MB1          &mkp MB2          &trans             &mkp MB3         &kp LC(PAGE_UP)  &kp N0                    &kp N1                 &kp N2           &kp N3         &kp SINGLE_QUOTE 
+&kp LCTRL       &kp LGUI          &trans            &trans             &trans           &trans           &mt RIGHT_SHIFT DELETE    &kp LC(PAGE_DOWN)      &kp BACKSPACE    &kp ENTER      &kp RIGHT_ALT
             >;
         };
 
@@ -181,10 +181,10 @@
        Symbols {
             display-name = "Symbols";
             bindings = <
-&kp N0  &kp LS(N0)   &kp N8  &kp LS(N8)  &trans                   &trans  &kp LS(COMMA)       &kp LS(DOT)           &kp EQUAL          &kp LEFT_BRACKET
-&kp SINGLE_QUOTE          &kp LS(SINGLE_QUOTE)         &kp LS(SEMI)        &trans  &trans                   &trans  &kp RIGHT_BRACKET   &kp BACKSLASH         &kp LS(INT3)       &kp LS(EQUAL)
-&trans                 &trans         &trans        &trans  &trans  &kp LC(PAGE_UP)  &trans  &kp LS(RIGHT_BRACKET) &kp LS(BACKSLASH)   &trans             &kp INT1
-&trans                 &trans         &trans        &trans  &trans  &trans           &trans  &kp LC(PAGE_DOWN)   &trans                &trans             &kp LS(INT1)
+&kp N0                    &kp LS(N0)            &kp N8              &kp LS(N8)          &trans                   &trans                &kp LS(COMMA)         &kp LS(DOT)         &kp EQUAL          &kp LEFT_BRACKET
+&kp SINGLE_QUOTE          &kp LS(SINGLE_QUOTE)  &kp LS(SEMI)        &trans              &trans                   &trans                &kp RIGHT_BRACKET     &kp BACKSLASH       &kp LS(INT3)       &kp LS(EQUAL)
+&trans                    &trans                &trans              &trans              &trans  &kp LC(PAGE_UP)  &trans                &kp LS(RIGHT_BRACKET) &kp LS(BACKSLASH)   &trans             &kp INT1
+&trans                    &trans                &trans              &trans              &trans  &trans           &trans                &kp LC(PAGE_DOWN)     &trans              &trans             &kp LS(INT1)
             >;
        };
 

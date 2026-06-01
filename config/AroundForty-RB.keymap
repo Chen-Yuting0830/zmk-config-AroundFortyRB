@@ -181,8 +181,8 @@
        Symbols {
             display-name = "Symbols";
             bindings = <
-&trans  &trans  &trans  &trans  &trans          &trans  &kp LEFT_BRACKET    &kp RIGHT_BRACKET    &trans    &kp LEFT_BRACKET
-&trans  &trans  &trans  &trans  &trans          &trans  &kp LS(COMMA)       &kp LS(DOT)          &trans    &kp LS(EQUAL)
+&trans  &trans  &trans  &trans  &trans          &trans  &kp LS(COMMA)       &kp LS(DOT)          &trans    &kp LEFT_BRACKET
+&trans  &trans  &trans  &trans  &trans          &trans  &kp RIGHT_BRACKET   &kp BACKSLASH        &trans    &kp LS(EQUAL)
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans              &trans               &trans    &kp NUBS
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans              &trans               &trans    &kp LS(NUBS)
             >;

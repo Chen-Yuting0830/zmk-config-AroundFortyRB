@@ -181,10 +181,10 @@
        Symbols {
             display-name = "Symbols";
             bindings = <
-&trans  &trans  &trans  &trans  &trans          &trans  &kp LS(COMMA)       &kp LS(DOT)          &trans    &kp LEFT_BRACKET
-&trans  &trans  &trans  &trans  &trans          &trans  &kp RIGHT_BRACKET   &kp BACKSLASH        &trans    &kp LS(EQUAL)
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans              &trans               &trans    &kp NUBS
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans              &trans               &trans    &kp LS(NUBS)
+&kp GRAVE  &kp LS(GRAVE)  &kp EQUAL  &kp LS(EQUAL)  &trans          &trans  &kp LS(COMMA)       &kp LS(DOT)          &trans    &kp LEFT_BRACKET
+&kp MINUS  &kp LS(MINUS)  &trans     &trans         &trans          &trans  &kp RIGHT_BRACKET   &kp BACKSLASH        &trans    &kp LS(EQUAL)
+&trans     &trans         &trans     &trans         &trans  &trans  &trans  &trans              &trans               &trans    &kp NUBS
+&trans     &trans         &trans     &trans         &trans  &trans  &trans  &trans              &trans               &trans    &kp LS(NUBS)
             >;
        };
 
